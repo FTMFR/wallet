@@ -8,6 +8,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        IRANSans: ["--IRANSans"],
+      },
       fontSize: {
         sm: "14px",
         base: "16px",

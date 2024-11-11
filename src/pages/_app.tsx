@@ -26,10 +26,11 @@ const IRANSans = localFont({
       style: "normal",
     },
   ],
+  display: "swap",
+  variable: "--IRANSasn",
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
-
   return (
     <>
       <Head>
@@ -38,6 +39,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} className={`${IRANSans.className}`} />
     </>
   );
-};
+}
 
 export default MyApp;
